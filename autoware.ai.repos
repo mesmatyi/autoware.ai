@@ -9,7 +9,7 @@ repositories:
     version: master
   autoware/core_planning:
     type: git
-    url: https://github.com/Autoware-AI/core_planning.git
+    url: https://github.com/mesmatyi/core_planning.git
     version: master
   autoware/documentation:
     type: git
