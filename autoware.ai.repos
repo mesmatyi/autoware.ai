@@ -1,7 +1,7 @@
 repositories:
   autoware/common:
     type: git
-    url: https://github.com/Autoware-AI/common.git
+    url: https://github.com/mesmatyi/common.git
     version: master
   autoware/core_perception:
     type: git
