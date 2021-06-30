@@ -38,7 +38,7 @@ Free manuals can be also found at [Autoware-Manuals](https://github.com/CPFL/Aut
 ### Installation
 
     $ mkdir -p autoware.ai_bleeding/src
-    $ cd autoware.ai_bleeding/src
+    $ cd autoware.ai_bleeding
     $ wget -O autoware.ai.repos "https://raw.githubusercontent.com/mesmatyi/autoware.ai/master/autoware.ai.repos"
     $ vcs import src < autoware.ai.repos
     $ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
