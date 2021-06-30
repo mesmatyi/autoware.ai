@@ -35,6 +35,16 @@ Free manuals can be also found at [Autoware-Manuals](https://github.com/CPFL/Aut
 1. [Simulation Test](https://github.com/Autoware-AI/autoware.ai/wiki/Simulation-Demo)
 1. [Videos](https://github.com/Autoware-AI/autoware.ai/wiki/Videos)
 
+### Installation
+
+    $ mkdir -p autoware.ai_bleeding/src
+    $ cd autoware.ai
+    $ wget -O autoware.ai.repos "https://raw.githubusercontent.com/mesmatyi/autoware.ai/master/autoware.ai.repos"
+    $ vcs import src < autoware.ai.repos
+    $ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+    
+    
+
 ### Developers Guide
 
 1. [Contribution Rules](https://github.com/Autoware-AI/autoware.ai/wiki/Contributing-to-Autoware) (**Must Read**)
