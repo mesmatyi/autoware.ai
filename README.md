@@ -41,6 +41,8 @@ Free manuals can be also found at [Autoware-Manuals](https://github.com/CPFL/Aut
     $ cd autoware.ai_bleeding
     $ wget -O autoware.ai.repos "https://raw.githubusercontent.com/mesmatyi/autoware.ai/master/autoware.ai.repos"
     $ vcs import src < autoware.ai.repos
+    $ rosdep update
+    $ rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
     $ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
     
     
